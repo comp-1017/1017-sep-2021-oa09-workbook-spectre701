@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+    <title>Table Demo</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Julien Thompson">
+</head>
+
+<body>
+    <header>
+        <h1>Table Demo</h1>
+        <nav>
+            <h2>Nav tag titles are optional</h2>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../apple-pie.html">Apple Pie</a></li>
+                <li><a href="#">Table Demo</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>My Table Demo</h2>
+    <p>A table is a way of creating a structured grid display of data.
+        The paired tags(open/close) we will be interested in are:
+    </P>
+    <ul>
+        <li>&lt;table&gt; : identifies the start of the table</li>
+        <li>&lt;thead&gt; : identifies the header row of the table</li>
+        <li>&lt;tbody&gt; : identifies the data detail body of the table</li>
+        <li>&lt;tfoot&gt; : identifies the footer row of the table</li>
+        <li>&lt;tr&gt; : identifies the start of a row on the table</li>
+        <li>&lt;th&gt; : identifies the cell on the header row for the column title</li>
+        <li>&lt;td&gt; : identifies the cell on the detail row or footer row to hold content</li>
+    </ul>
+    <p>Some tags have parameters. The border paramter of the table tag applies
+        a border around your table. The colspan parameter and rowspan parameter
+        are used on the &lt;td&gt; tab to allow you to merge columns on a single
+        row or collumn cells across rows.
+    </p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Course#</th>
+                <th>Name</th>
+                <th>Hours</th>
+                <th>Pass Criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="../img/telephone.png" alt="telephone"></td>
+                <td><a href="#">COMP1017</td>
+                <td>Web Design Fundamentals I</td>
+                <td>60</td>
+                <td>Overall 50%</td>
+            </tr>
+            <tr>
+                <td><img src="../img/money.png" alt="money"></td>
+                <td>COMP1008</td>
+                <td>Digital Graphic Design Tools</td>
+                <td>60</td>
+                <td>Overall 50%</td>
+            </tr>
+            <tr>
+                <td><img src="../img/computer.png" alt="computer"></td>
+                <td>CPSC1517</td>
+                <td>Introduction to Application Development</td>
+                <td>90</td>
+                <td>Overall &nbsp;50% and
+                    <b>minimum</b> 50% in <i>Theory</i>
+                    <strong>and</strong> <em>Project</em> <u>components</u>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+
+            <tr>
+                <td></td>
+                <td colspan="2">Total Hours</td>
+                <td>120</td>
+                <td></td>
+            </tr>
+        </tfoot>
+
+    </table>
+    </section>
+</main>
+</body>
+
+</html>
