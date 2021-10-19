@@ -1,0 +1,16 @@
+h1 {
+    color:red;
+}
+p {
+    background-color: silver;
+    font-family: Calibri;
+}
+
+
+/* multiple element (tag) selectors */
+h2, h3, h4, h5, h6 {
+    color:green;
+    background-color: #f4f4f4;
+    border: 3px solid black;
+
+}
