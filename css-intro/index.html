@@ -28,7 +28,7 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td>Inline</td>
+                    <td>Inline</td> <!--A 'Rule' is property:value-->
                     <td>this is for a single specific element (tag) instance</td>
                     <td>style="rule; [rule;...]"</td>
                     <td>style="color:red; width:50px"</td>
@@ -37,8 +37,9 @@
                     <td>Embedded</td>
                     <td>coded in your head area, styling selectors apply to all elements (tags) that exist on the page
                     </td>
-                    <td>&lt;style&gt;<br/> selector {rule; [rule; ...]} <br/>[selector {...} ...]}<br/> &lt;/style&gt;</td>
-                    <td>&lt;style&gt; <br /> h1 {color:red; width:250px;} <br /> p {background-color:silver;}<br/>
+                    <td>&lt;style&gt;<br /> selector {rule; [rule; ...]} <br />[selector {...} ...]}<br />
+                        &lt;/style&gt;</td>
+                    <td>&lt;style&gt; <br /> h1 { color:red; width:250px; } <br /> p { background-color:silver; }<br />
                         &lt;/style&gt;</td>
                 </tr>
                 <tr>
@@ -46,8 +47,8 @@
                     <td>coded in a separate file, styling selectors apply to all elements (tags) that exist on the page,
                         you must reference the file in your head area using the &lt;link&gt; tag</td>
 
-                    <td> selector {rule; [rule; ...]}<br/> [selector {...} ...]} </td>
-                    <td> h1 {color:red; width:250px;} <br /> p {background-color:silver;} </td>
+                    <td> selector {rule; [rule; ...]}<br /> [selector {...} ...]} </td>
+                    <td> h1 { color:red; width:250px; } <br /> p { background-color:silver; } </td>
                 </tr>
             </table>
         </section>
